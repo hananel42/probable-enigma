@@ -1,0 +1,17 @@
+# Package/build output
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Tool and operating-system noise
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+
+# Local secrets/configuration. Commit a documented .env.example only if needed.
+.env
+.env.*
+!.env.example
